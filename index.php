@@ -12,3 +12,9 @@
     <footer></footer>
   </body>
 </html>
+
+
+<?php
+
+// om de bovenstaande code goed te gebruiken moet je apache van Xamp opstarten en deze URL invoeren:
+// http://localhost/Gouda_SWD1/index.php?name= van Henry
