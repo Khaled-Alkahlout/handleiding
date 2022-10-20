@@ -1,0 +1,44 @@
+body
+{
+    margin: 0;
+}
+.page
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.Inhoud
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 370px;
+}
+.button
+{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+}
+.Con-info
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 250px;
+    font-size: 25px;
+    padding: 5px;
+}
