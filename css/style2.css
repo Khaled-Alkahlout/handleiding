@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+}
+.page
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.Inhoud
+{
+    width: 900px;
+    margin-left: 27%;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: black;
+}
+.Handleiding-title
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.Stap
+{
+    padding-left: 15px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.Text
+{
+    padding-left: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.lijst
+{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.button
+{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+}
+.Con-info
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 5px;
+}
+@media screen and (max-width: 660px)
+{
+body
+{
+    margin: 0;
+}
+.page
+{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.Inhoud
+{
+    width: 900px;
+    margin-left: 15%;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: black;
+}
+.Handleiding-title
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.Stap
+{
+    padding-left: 15px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.Text
+{
+    padding-left: 5px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.lijst
+{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+.button
+{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    border-radius: 10px;
+}
+.Con-info
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 5px;
+}
+}

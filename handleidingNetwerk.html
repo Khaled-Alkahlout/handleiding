@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="disctription" content="Handleiding om naar het pc en pc thuisnetwerk te bouwen">
+    <title>pc thuisnetwerk handleiding</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<header>
+    <h1>
+        Smart Tech
+    </h1>
+    <!-- Ik gebruite Br hier om een afstand tussen de header en div maken-->
+    <h2><br><br><br></h2>
+</header>
+<!-- Hier koppelte body met claas=page in css om naar het webpagina background te controlen-->
+<body class="page" background="images/web.jpg">
+    <!-- Binnen div heb ik H2 toegevoegd bovendien heb ik de style van H2 binnen de tag van h2-->
+    <div> 
+        <h2 style = "text-align: center;">
+            Handleiding voor PC-Thuisnetwerk bouwen
+        </h2>
+        Iedere draadloze router ondersteunt DHCP, waarmee automatisch IP adressen worden uitgedeeld. 
+        Dat is hartstikke handig, maar ik wil sommige apparaten een vast (statisch IP geven).
+        Mijn eigen laptop bijvoorbeeld, zodat ik portforwarding kan instellen voor het downloaden van torrents.
+        En ook voor de media player en wifi printer is het handig deze een vast IP adres te geven. Zo weet je altijd via welk IP adres deze apparaten te benaderen zijn.
+        Zorg ervoor dat je vaste IP adressen niet in de range van de DHCP server liggen, hier kom ik later op terug.
+        <br>
+        Mijn thuisnetwerk ziet er als volgt uit: 
+        <table>
+            <tr>
+                <th> Internet verbinding </th>
+            </tr>
+            <tr>
+                <td>Modem voor UPC kabel internet</td>
+                <td>192.168.0.100</td>
+            </tr>
+            <tr>
+                <td>Draadloze router voor thuisnetwerk</td>
+            </tr>
+            <tr>
+                <td>Linksys EA4500 dualband router</td>
+                <td>192.168.1.1</td>
+            </tr>
+            <tr>
+                <td>Draadloze apparaten met vast IP adres</td>
+            </tr>
+            <tr>
+                <td>WiFi printer</td>
+                <td>192.168.1.10</td>
+            </tr>
+        
+            <tr>
+                <td>Eigen laptop</td>
+                <td>192.168.1.15</td>
+            </tr>
+
+            <tr>
+                <td>Bekabelde apparaten met vast IP adres</td>
+            </tr>
+
+            <tr>
+                <td>AC Ryan Playon HD</td>
+                <td>192.168.1.20</td>
+            </tr>
+
+            <tr>
+                <td>Draadloze apparaten DHCP</td>
+            </tr>
+
+            <tr>
+                <td>Laptop vriendin</td>
+                <td>DHCP</td>
+            </tr>
+
+            <tr>
+                <td>Eigen smartphone</td>
+                <td>DHCP</td>
+            </tr>
+
+            <tr>
+                <td>Smartphone vriendin</td>
+                <td>DHCP</td>
+            </tr>
+        
+        </table>
+
+        <h2>
+            Router installeren
+        </h2>
+
+        <p>
+            Nu we in kaart hebben gebracht hoe het netwerk er uit moet komen te zien,
+            kunnen we de router installeren.
+            De oude router haal ik van het modem en ik sluit het modem aan op de WAN (internet) poort van de Linksys router. 
+            Het installeren van de router gaat heel eenvoudig via de bijgeleverde CD-ROM en de laptop waarop je dit uitvoert kan gewoon draadloos verbinden met de router,
+            je hoeft de router dus niet eerst met een kabel op een laptop aan te sluiten.
+        </p>
+        <h3>
+            SSID en beveiligingssleutel
+        </h3> 
+        <p>
+            Tijdens de installatie kun je zelf een netwerknaam (SSID) en WPA of WPA2 beveiligingssleutel opgeven bij de nieuwe Linksys routers
+            (bij andere merken is dit soms niet zo en kun je die later aanpassen in de web interface).
+        </p>
+        <h2>
+            WiFi USB adapter installeren
+        </h2>
+        <P>
+            Om optimaal van de snelheid van de 450 Mbps router te profiteren, heb ik gekozen voor de 450 Mbps Linksys AE3000 USB adapter.
+            Deze ga ik op mijn laptop installeren om zo snel te kunnen downloaden en snel media naar de Playon HD te kunnen kopiëren. 
+            Omdat ik deze adapter ga gebruiken, schakel ik de interne WiFi kaart uit. Overigens haal ik deze 450 Mbps snelheden alleen op momenten dat er geen langzamere apparaten met het netwerk zijn verbonden.
+        </P>
+        <h2>
+            Vaste IP adressen
+        </h2>
+        <p>
+            Zoals je ziet eindigen mijn vaste IP adressen op 10, 15 en 20. De DHCP range van de router laat ik beginnen bij 100, zo kunnen er nooit conflicten ontstaan.
+            Zorg dat je IP adressen wel allemaal in dezelfde range zitten. De range in mijn netwerk is in dit geval 192.168.1.
+            De printer, media player en de zojuist geïnstalleerde WiFi adapter op mijn laptop geef ik allemaal een vast IP adres zoals te zien is in de tabel bovenaan dit artikel.
+        </p>
+        <h2>
+            Port forwarding
+        </h2>
+        <p>
+            Via Smart Wi-Fi van Linksys ga ik een poort forwarden om het downloaden van torrents zo goed en snel mogelijk te laten verlopen.
+        </p>
+        <h2>
+            Klaar
+        </h2>
+        <p>
+            Nu is mijn netwerk klaar. De printer was al toegevoegd aan het netwerk.
+            Dit kun je indien nodig heel eenvoudig doen door onder Windows het IP adres (daarom is een vast IP adres dus handig) op te geven bij het toevoegen van nieuwe printers.
+            Is iets niet duidelijk of het je nog vragen? Stel je vraag via de comments onder dit artikel. Ik beantwoord ze graag.
+        </p>
+    </div>
+</body>
+<footer>
+    <div class="Con-info">
+        <!-- Ik heb div gemaakt om achtergrond kleur voor de contact informatie te geven en die in het midden van de webpagina te plaatsen  -->
+        <p>Contact informatie:</p>
+        <p>T:+31685177152</p>
+        <p>E-mail:smartTech@gmail.com</p>
+    </div>
+</footer>
+</html>
